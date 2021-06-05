@@ -1,0 +1,105 @@
+body{
+    background: black;
+}
+
+.name{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 2%;
+    padding-left: 14%;
+}
+
+.score{
+    top: 2%;
+    position: fixed;
+    left: 65%;
+}
+#score-count{
+    position: relative;
+   text-align: center;
+
+}
+
+#klava {
+    width:50%;
+    height: 30%;
+    padding-top: 22%;
+}
+
+#img{
+    top:5%;
+    position: fixed;
+    /*width: 23%;*/
+    width: 468px;
+    height: 830px;
+
+    /*height: 46%;*/
+    padding-left: 12%;
+    left: 30%;
+}
+
+#a{
+    width:2% ;
+    height: 30px;
+    
+    border-color: blueviolet;
+}
+#record-table{
+    color: white;
+    top:20%;
+    left: 17%;
+    position: fixed;
+}
+table{
+    border: 1px solid white;
+}
+
+.pop-up{
+    /*top: 30%;*/
+    top: 40%;
+    /*left: 30%;*/
+    width: 14%;
+    height: 14%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background-color: white;
+    position: fixed;
+    left: 45%;
+    text-align: center;
+    display: none;
+}
+#word-line{
+    position: fixed;
+    top:40%;
+    width: 25%;
+    height: 10%;
+    left:70%;
+    border: 1px solid white;
+}
+.underline{
+    color: white;
+    top: 25%;
+    position: relative;
+    /*border: 1px solid blue;*/
+    /*height: 100%;*/
+    font-size: 40px;
+    width: 2px;
+    margin: 2px;
+    display: inline;
+}
+#word-write{
+    text-align: center;
+    position: fixed;
+    width: 60px;
+    height: 50px;
+    left:80%;
+    top:55%;
+    border: 1px solid white;
+}
+/*input.underline{*/
+/*    width: 2px;*/
+/*}*/
+span{
+    color: black;
+}

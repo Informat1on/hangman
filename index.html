@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/d2.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--название-->
+<div class="name">ВИСЕЛИЦА</div>
+
+<!--очки-->
+<div class="name score">ОЧКИ<div id ="score-count"></div></div>
+
+<!--таблица рекордов-->
+
+<div id="record-table">
+  <table id="add-table" rules="all" cellpadding="5">
+    <caption>Таблица рекордов</caption>
+    <!--Первая строка    -->
+    <tr>
+      <th>Имя игрока</th>
+      <th>Очки</th>
+    </tr>
+
+    <!--Уже идут игроки -->
+
+  </table>
+</div>
+<!--нужен input field-->
+
+<div id="word-line"></div>
+<div id="word-write">
+  <input size="2" maxlength="1" id="word-write-input">
+  <button onclick="submitWord()" id="word-write-submit">OK</button>
+</div>
+
+<!--<img id="k1" src="images/k1.png">-->
+<canvas id="img">Ur browser doesnt support canvas</canvas>
+
+
+<div class="pop-up" id="popup-name">
+  <br>
+Введите ваш ник-нейм:<br>
+  <input id="nick-input"> <br><br>
+  <button id="nick-submit" onclick="addNick();">Подтвердить</button>
+</div>
+
+<div class="pop-up" id="popup-looser">
+  <br>
+  Вы проиграли!<br>
+  Ваш счет <div id="win-count"></div>
+  <br>
+  <button id="restart-btn" onclick="refresh(0)">Играть заново</button>
+</div>
+
+
+<script src="javascript/main.js" type="text/javascript" rel="script"></script>
+
+</body>
+</html>
